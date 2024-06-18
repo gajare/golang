@@ -1,10 +1,34 @@
 package main
 
 import (
-	"Amazon/src/user/internal/models"
+	"Amazon/user/internal/models"
 	"fmt"
 )
 
 func main() {
-	fmt.Println("hello there")
+	user := models.User{
+		ID:           "1",
+		FirstName:    "amol",
+		LastName:     "gajare",
+		Email:        "gajre425@gmail.com",
+		PasswordHash: "today!098",
+		Address: []models.Address{
+			models.Address{
+				ID:      "100",
+				UserID:  "gajare",
+				Street:  "praksh uday",
+				City:    "pune",
+				State:   "maharstra",
+				PinCode: "41106",
+			},models.Address{
+				ID:      "100",
+				UserID:  "gajare",
+				Street:  "praksh uday",
+				City:    "pune",
+				State:   "maharstra",
+				PinCode: "41106",
+			},
+		},
+	}
+	fmt.Println("hello :", user)
 }
