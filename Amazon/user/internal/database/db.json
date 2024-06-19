@@ -1,0 +1,47 @@
+{
+    "users": [
+      {
+        "id": "1",
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "john.doe@example.com",
+        "password": "hashed_password_1",
+        "addresses": [
+          {
+            "id": "1",
+            "user_id": "1",
+            "street": "123 Main St",
+            "city": "Anytown",
+            "state": "CA",
+            "pin_code": "12345"
+          },
+          {
+            "id": "2",
+            "user_id": "1",
+            "street": "456 Oak Ave",
+            "city": "Sometown",
+            "state": "NY",
+            "pin_code": "67890"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "email": "jane.smith@example.com",
+        "password": "hashed_password_2",
+        "addresses": [
+          {
+            "id": "3",
+            "user_id": "2",
+            "street": "789 Elm St",
+            "city": "Othercity",
+            "state": "TX",
+            "pin_code": "54321"
+          }
+        ]
+      }
+    ]
+  }
+  
