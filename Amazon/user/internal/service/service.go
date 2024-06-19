@@ -2,6 +2,8 @@ package service
 
 import "Amazon/user/internal/models"
 
+import "Amazon/user/internal/models"
+
 // The service layer typically encapsulates business logic that is reusable across different controllers or even across multiple microservices.
 
 func CreateUser(user models.User) (*models.User, error) {
